@@ -8,7 +8,7 @@ from rabbitx.client.endpoints.order import OrderGroup, OrderSide, OrderType, Ord
 from rabbitx.client.endpoints.orderbook import OrderBookGroup
 from rabbitx.client.endpoints.position import PositionGroup
 from rabbitx.client.endpoints.profile import ProfileGroup
-from rabbitx.client.endpoints.balance import BalanceGroup
+from rabbitx.client.endpoints.balance import BalanceGroup, OpsType
 from rabbitx.client.endpoints.trade import TradeGroup
 from rabbitx.client.session import ClientSession
 from rabbitx.client.websocket import WSClient, WSClientCallback
